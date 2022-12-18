@@ -1,0 +1,48 @@
+
+
+body{
+    background-color: #970101;
+}
+header{
+    font-family:'Rubik Moonrocks';
+    text-align: center;
+    font-size: 25px;
+    padding-top: 25px;
+    margin-bottom: 50px;
+}
+
+ 
+.container1 div, .container2 div, .container3 div, .container4 div, .container5 div{
+border: 3px #000 solid;
+padding:0px;
+margin-bottom: 30px;
+
+}
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+
+}
+.container3{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container4{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container5{
+    display: flex;
+   justify-content: space-between;
+   column-gap: 20px;
+   
+}

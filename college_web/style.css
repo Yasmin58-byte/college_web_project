@@ -1,0 +1,59 @@
+body{
+background-image: url('./wallpaper.jpg');
+background-size: cover;
+background-position: center;
+margin:0;
+padding:0;
+}
+#login_box{
+   
+    width:350px;
+    height:450;
+    background-color: #000000b3; 
+    margin-top: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'Signika', sans-serif;
+}
+.boxes{
+    width:170px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#btn{
+    width:130px ;
+    height:30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* .container div{
+  
+    border: 3px #000 solid;
+    flex-direction: row; */
+/* } */
+.define{
+    background-color: #970101;
+    font-size: 1.6em;
+    margin-top: 100px;
+    width:350px;
+    height:450;
+    font-family:  'Signika', sans-serif;
+    color: antiquewhite;
+   display: flex;
+   flex-direction: column;
+   padding: 0;
+   text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    
+}
+.define p{
+    font-size:0.7em;
+    color: antiquewhite
+}
+
